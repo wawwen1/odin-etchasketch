@@ -5,14 +5,17 @@
 const container = document.querySelector("#container");
 
 createGrid = (rows, cols) => {
-  
   for (let i = 0; i < rows * cols; i++) {
     const grid = document.createElement("div");
     grid.classList.add("grid-cell");
     grid.textContent = "test";
-    container.appendChild(grid);
 
+    grid.addEventListener("mousemove", (e) => {
+      grid.style.backgroundColor = "black";
+    });
+
+    container.appendChild(grid);
   }
 };
 
-createGrid(16,16);
+createGrid(16, 16);
