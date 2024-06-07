@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+#container {
+  width: 80vw;
+  height: 80vh;
+  border: 1px solid black;
+}
+
+.grid-cell {
+  border: 1px solid black;
+  width: calc(100% / 16);
+}
