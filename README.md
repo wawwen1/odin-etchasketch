@@ -1,1 +1,2 @@
 # odin-etchasketch
+A project assigned by The Odin Project to help practice Javascript. Users will be able to draw an image by mousing over the grids inside a container. There are also able to change the grid size.
