@@ -8,8 +8,9 @@ html,
 body {
   height: 100%;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #container {
@@ -23,4 +24,5 @@ body {
 .grid-cell {
   border: 1px solid black;
   width: calc(100% / 16);
+  height: calc(100% / 16);
 }
